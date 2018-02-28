@@ -1,0 +1,4 @@
+scapy_python3==0.23
+pandas==0.17.1
+dpkt_fix==1.7
+scapy==2.4.0rc4
