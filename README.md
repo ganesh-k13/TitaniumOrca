@@ -1,4 +1,4 @@
-# Dynamic Table
+# Titanium Orca
 
 A DDoS and port scan analysis tool
 
@@ -43,3 +43,4 @@ PARAMETERS:
 ## Acknowledgments
 
 This is developed as an assignment for Computer Networks Security Course 
+Reason for name: "Wave-hunting" Orca whales spy-hop to locate Weddell seals, crabeater seals, leopard seals, and penguins resting on ice floes, and then swim in groups to create waves that wash over the floe. Similar to port scans and DDos.
