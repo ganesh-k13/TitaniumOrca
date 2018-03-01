@@ -4,11 +4,11 @@ A DDoS and port scan analysis tool
 
 ### Prerequisites
 
-pandas==0.17.1
-scapy_python3==0.23
-dpkt==1.9.1
-scapy==2.4.0rc4
-tabulate==0.8.2
+* pandas==0.17.1
+* scapy_python3==0.23
+* dpkt==1.9.1
+* scapy==2.4.0rc4
+* tabulate==0.8.2
 
 ### Installing
 
@@ -33,6 +33,7 @@ PARAMETERS:
 	
 ```
 
+## TOOLS
 * [Python](https://docs.python.org/3/) - Main Platform
 * [DPKT](https://pypi.python.org/pypi/dpkt) - Main Packet Analser 
 
@@ -42,5 +43,5 @@ PARAMETERS:
 
 ## Acknowledgments
 
-This is developed as an assignment for Computer Networks Security Course 
-Reason for name: "Wave-hunting" Orca whales spy-hop to locate Weddell seals, crabeater seals, leopard seals, and penguins resting on ice floes, and then swim in groups to create waves that wash over the floe. Similar to port scans and DDos.
+* This is developed as an assignment for Computer Networks Security Course 
+* Reason for name: "Wave-hunting" Orca whales spy-hop to locate prey on ice floes, and then swim in groups and attack together in parallel to create waves that wash over the floe. Similar to port scans and DDos.

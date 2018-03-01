@@ -54,7 +54,7 @@ class TitaniumOrca:
 					# print(syn_flag, ack_flag, ip.dst, src_ip_addr_str, port)
 					
 				except:
-					traceback.print_exc() # [IMP]: Uncomment while developing
+					# traceback.print_exc() # [IMP]: Uncomment while developing
 		
 			return self.__table(self.__detect_attackers(), ["IP Adress", "Port"])
 	
