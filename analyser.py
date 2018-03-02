@@ -18,7 +18,7 @@ class TitaniumOrca:
 	def check_if_port_scan(self, ip):
 		ports = self.port_list[ip]
 		# return len(ports) - len(set([i for i in range(min(ports), max(ports)+1)])) == 0 # More complex
-		return len(ports) > 1000
+		return len(ports) > 25
 	
 	def parse(self):
 		# Open pcap file
@@ -54,6 +54,7 @@ class TitaniumOrca:
 					# print(syn_flag, ack_flag, ip.dst, src_ip_addr_str, port)
 					
 				except:
+					pass
 					# traceback.print_exc() # [IMP]: Uncomment while developing
 		
 			return self.__table(self.__detect_attackers(), ["IP Adress", "Port"])
