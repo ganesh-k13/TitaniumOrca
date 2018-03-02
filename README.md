@@ -28,8 +28,8 @@ PARAMETERS:
 		- pcap/namp/nmap_standard_scan
 		- pcap/syn_attack.pcap
 	
-	Other PCAPS included are: [TODO]
-	pcap
+	Other PCAPS included are:
+    pcap
     ├── Attack.pcap #Sample TCP-HALF-OPEN attack
     ├── hping_syn.pcap # Hping small output
     ├── nmap # NMAP Ouptut files [SEE README.txt]
@@ -49,6 +49,7 @@ EXAMPLE: python3 analyser.py pcap/namp/nmap_standard_scan # RUN THIS FOR EVALUAT
 ```
 
 ## Tools
+
 * [Python](https://docs.python.org/3/) - Main Platform
 * [DPKT](https://pypi.python.org/pypi/dpkt) - Main Packet Analyzer 
 * [scapy](https://github.com/secdev/scapy) - Main Packet Manipulator 
